@@ -1,14 +1,31 @@
-# Potter Airlines
+# Potter Airlines | Dynamic Airline Pricing System
 
-## Flight Class, Dataset, Dynamic Pricing & Database
+## Project Overview
 
-This covers Task 1 (Flight class + flight dataset) and Task 3 (SQLite
-database), which will be combined with the rest of the team's sections
-into the final project README.
+Potter Airlines is a fictional airline facing a common business challenge: how to set ticket prices that respond to changing demand and seat availability.
 
-> Every claim in this README was actually run and checked before
-> writing it down -- not just described. See the `main.py` output
-> below for proof.
+For example, a passenger booking three months in advance may pay a different fare than someone booking the same flight just days before departure. Using fixed prices could result in missed revenue opportunities or unsold seats.
+
+To address this challenge, a **Python-based dynamic pricing system** was developed to automatically adjust airfares based on five key factors:
+
+- **Time to Departure:** Adjust prices as the departure date approaches.
+- **Remaining Capacity:** Increase fares as available seats decrease.
+- **Route Popularity:** Reflect differences in demand across routes.
+- **Weekday vs. Weekend:** Account for variations in travel demand.
+- **Seasonality:** Adjust prices during peak and off-peak periods.
+
+The application uses **object-oriented programming (OOP)** to manage flight information, **SQLite** for database operations, and **Pandas/NumPy** for efficient fare calculations and analysis across multiple flights.
+
+## Business Value
+
+The system demonstrates how Potter Airlines could:
+
+- **Improve Revenue Management:** Capture higher revenue potential during high-demand periods.
+- **Optimize Seat Utilization:** Encourage bookings through competitive pricing when demand is low.
+- **Increase Operational Efficiency:** Automate pricing calculations and reduce manual adjustments.
+- **Support Data-Driven Decisions:** Translate changing business conditions into consistent, explainable pricing strategies.
+
+Overall, this project illustrates how Python and business analytics can work together to build a practical, automated solution that supports smarter pricing decisions and potential revenue growth.
 
 ## Files in this part
 
